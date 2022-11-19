@@ -239,6 +239,7 @@ input:focus {
     border-radius: 50%;    
     background: #420a91;    
     box-shadow: 0 0 50px #5300C9;
+    z-index: -1;
 }
 
 .skills-circle{
