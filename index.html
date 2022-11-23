@@ -8,7 +8,55 @@
     <title>Coming-Soon</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="#"><img src="img/logo.svg" alt="logo-header"></a>
+            </div>           
+                <!-- Взял на code Open но настраивал, и переделывал сам всю субботу -->
+                <div class="skills-circle">
+                    <div class="skill-orbit">
+                        <div class="skill-planet"><span>
+                            <img class="skill__image skill__image--eth" src="img/eth.svg" alt="eth">
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-orbit">
+                        <div class="skill-planet"><span>
+                            <img class="skill__image skill__image--btc" src="img/btc_1.svg" alt="btc">
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-orbit">
+                        <div class="skill-planet"><span>
+                            <img class="skill__image skill__image--btc2" src="img/btc_2.svg" alt="btc">
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-top-circle"></div>    
+
+         </div>
+    </header>
+    <main class="hero">
+        <div class="hero__container container">
+            <div class="hero__card">
+                <div class="hero__title">Coming Soon...</div>
+                <div class="hero__subtitle">Get notified when we launch</div>
+                <form class="hero__form" action="#">
+                    <input  class="input hero__input"
+                            type="email" 
+                            placeholder="Write you email"
+                            required
+                            minlength="4"
+                            maxlength="40">
+                    <button type="submit" class="button hero__button">Notify Me</button>
+                </form>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
